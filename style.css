@@ -1,9 +1,3 @@
-/* body{
-    background-image: url("kcp-dog2.jpg");
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-} */
 
 body, html {
     height: 100%;
@@ -12,11 +6,9 @@ body, html {
   .bg {
     /* The image used */
     background-image: url("kcp-dog2.jpg");
-  
     /* Full height */
     height: 100%;
-  
-    /* Center and scale the image nicely */
+    /* Center and scale the image */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,11 +27,31 @@ body, html {
     letter-spacing: 4px;
 
   }
+
   a:link {
     color: white;
+    text-decoration: none
   }
   
   /* visited link */
   a:hover {
     color: gray;
+  }
+  
+
+  /* portfolio css starts here */
+  .title {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 4px;
+    font-size: 40px;
+  }
+
+  .title-two {
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 4px;
+    font: 20px;
   }
