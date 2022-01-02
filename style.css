@@ -55,3 +55,14 @@ body, html {
     letter-spacing: 4px;
     font: 20px;
   }
+
+  .navbar {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+  }
+
+  h3 {
+    letter-spacing: 10px;
+    font-size: 15px;
+  }
