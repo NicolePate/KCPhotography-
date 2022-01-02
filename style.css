@@ -21,3 +21,25 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  header, .intro {
+    padding-bottom: 20%;
+    padding-top: 30px;
+    padding-right: 2%;
+    text-align: right;
+    letter-spacing: 2px;
+  }
+
+  h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 4px;
+
+  }
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:hover {
+    color: gray;
+  }
