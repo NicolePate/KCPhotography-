@@ -207,7 +207,7 @@ form{
 
  /* About section */
  .about-photo {
-  background-image: url("/images/photo30.jpeg");
+  background-image: url("/images/photo31.jpeg");
   width: 80%;
   height: 200px;
   margin: auto;
@@ -226,4 +226,14 @@ form{
   letter-spacing: 4px;
   width:80%;
   margin: auto;
+ }
+
+ .contact-photo {
+  background-image: url("/images/photo34.jpeg");
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
  }
