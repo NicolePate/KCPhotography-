@@ -204,3 +204,26 @@ form{
    font-size: 5px;
    font-family: 'Open Sans', sans-serif;
  }
+
+ /* About section */
+ .about-photo {
+  background-image: url("/images/photo30.jpeg");
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+.about-info {
+  width:80%;
+  margin: auto;
+}
+ .about-info2 {
+  padding-top: 5px;
+  /* text-align: center; */
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 4px;
+  width:80%;
+  margin: auto;
+ }
