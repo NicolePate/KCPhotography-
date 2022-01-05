@@ -73,6 +73,12 @@ body, html {
     font-size: 15px;
     
   }
+  h4 {
+    letter-spacing: 5px;
+    font-size: 5px;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
 
   #content {
       display: flex;
@@ -103,6 +109,8 @@ body, html {
     flex-wrap: wrap;
     padding: 0 20px;
     justify-content: center;
+    height: 500px;
+    overflow: scroll;
   }
   
   /* Create four equal columns that sits next to each other */
@@ -133,4 +141,31 @@ body, html {
       flex: 100%;
       max-width: 100%;
     }
+  }
+
+  /* FOOTER */
+
+  #footer {
+    padding-top: 30px;
+    margin-bottom: 200px;
+    height: 120px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(203, 202, 202);
+    /* font-family: 'Open Sans', sans-serif; */
+    text-align: center;
+    /* letter-spacing: 10px;
+    font-size: 15px; */
+  }
+#person-info {
+  background-color: rgb(203, 202, 202);
+  width: 80%;
+  margin: auto;
+
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
   }
